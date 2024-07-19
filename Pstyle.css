@@ -1,0 +1,239 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* --------------------------------------------navigation_bar------------------------------------------------------------ */
+#navigation_bar
+{
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+#name_profession
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+    left: 0%;
+}
+#small_box
+{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#name
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    top: 6px;
+}
+#slash
+{
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 18px;
+    position: relative;
+    top: 7px;
+}
+#developer
+{
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 18px;
+    position: relative;
+    top: 11px;
+}
+#navigation_links
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0%;
+}
+#navigation_links a
+{
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight:500;
+    font-style:normal;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+#navigation_links a:hover
+{
+    color: blue;
+}
+/* --------------------------------------------navigation_bar------------------------------------------------------------ */
+
+
+
+/* --------------------------------------------middle box------------------------------------------------------------ */
+
+#gap
+{
+    height: 120px;
+    width: 100%;
+}
+#middle_box
+{
+    height: 1000px;
+    background-color: rgb(255, 200, 0);
+    display: flex;
+    justify-content: center;
+}
+#project_head
+{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 150px;
+}
+#underline
+{
+    height: 4px;
+    width: 44px;
+    background-color: blue;
+    position: absolute;
+    top: 215px;
+}
+
+#education_box
+{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+
+}
+#project_t1
+{
+    position: absolute;
+    top: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#project_t2
+{
+    position: absolute;
+    top: 300px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+#project1
+{
+    position:absolute;
+    top: 100px;
+    height: 200px;
+}
+
+button {
+ padding: 15px 25px;
+ border: unset;
+ border-radius: 15px !important;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ top: 240px;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+button:hover {
+ color: #e8e8e8;
+}
+
+button:hover::before {
+ width: 100%;
+}
+/* --------------------------------------------middle box------------------------------------------------------------ */
+
+
+
+/* --------------------------------------------bottom_bar------------------------------------------------------------ */
+.fa-linkedin,.fa-github,.fa-instagram,.fa-facebook
+{
+    color: black;
+    text-decoration: none;
+}
+#bottom_bar
+{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+}
+#link_box2
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+    
+}
+.bottom_headings
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+.bottom_links
+{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
